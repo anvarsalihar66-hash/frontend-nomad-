@@ -1,16 +1,12 @@
 import React from 'react';
 import { books } from '../data/books';
-import BookCard from '../components/BookCard';
+import BookList from '../components/BookList';
 
 const CatalogPage = () => {
     return (
-        <div className="container">
-            <h1 style={{marginBottom: '40px'}}>Каталог всех книг</h1>
-            <div className="books-list-flex">
-                {books.map(book => (
-                    <BookCard key={book.id} book={book} />
-                ))}
-            </div>
+        <div className="catalog-page-wrapper">
+            {/* Передаем массив книг в наш новый красивый список */}
+            <BookList books={books} />
         </div>
     );
 };

@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import CatalogPage from './pages/CatalogPage';
 import CartPage from './pages/CartPage';
 import ContactPage from './pages/ContactPage'; // Используем для "О нас"
+import CheckoutPage from './pages/CheckoutPage';
 
 // Импортируем твои стили
 import './App.css';
