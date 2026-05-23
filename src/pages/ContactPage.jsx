@@ -1,18 +1,20 @@
 function ContactPage() {
     return (
-        <div className="main-content">
-            <h1>Контакты</h1>
-
-            <p style={{ margin: '20px 0' }}>
+        <div className="about-page">
+            <h1>О нас</h1>
+            <p>
+                Мы создаём удобный сервис для чтения книг. Наша миссия — сделать литературу доступной для каждого.
+                Тысячи книг, аудиокниг и комиксов — всё в одном месте.
+            </p>
+            <p style={{ marginBottom: '12px', fontWeight: 600, color: '#1a1a1a' }}>
                 Бишкек, IUK East Campus
             </p>
-
             <div style={{
                 width: '100%',
                 height: '400px',
-                borderRadius: '20px',
+                borderRadius: '16px',
                 overflow: 'hidden',
-                border: '1px solid #222'
+                border: '1px solid #e8e8e8'
             }}>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1524.822856985399!2d74.63828847339477!3d42.86093758235291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7448522e503%3A0xe413157e02c6e416!2sIuk%20east%20campus!5e0!3m2!1sru!2skg!4v1779479566253!5m2!1sru!2skg"
