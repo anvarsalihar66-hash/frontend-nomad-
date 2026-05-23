@@ -1,14 +1,11 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
 import Header from './components/Header';
 import HomePage from './pages/HomePage';
 import CatalogPage from './pages/CatalogPage';
 import CartPage from './pages/CartPage';
-import ContactPage from './pages/ContactPage'; // Используем для "О нас"
+import ContactPage from './pages/ContactPage';
 import CheckoutPage from './pages/CheckoutPage';
-
-// Импортируем твои стили
 import './App.css';
 
 function App() {
@@ -23,6 +20,7 @@ function App() {
                             <Route path="/catalog" element={<CatalogPage />} />
                             <Route path="/cart" element={<CartPage />} />
                             <Route path="/about" element={<ContactPage />} />
+                            <Route path="/checkout" element={<CheckoutPage />} />
                         </Routes>
                     </main>
                 </div>
